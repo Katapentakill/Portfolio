@@ -1,0 +1,30 @@
+<div class="flex w-full min-h-screen bg-custom-purple2">
+  <div class="w-60 bg-custom-purple fixed h-full overflow-y-auto">
+    <ul class="list-none p-0">
+      <div class="mt-80">
+        <img src="images/David.jpg" alt="David" class="w-40 h-40 mb-10 rounded-full bg-center my-8 mx-auto">
+        <li class="mb-1">
+          <a routerLink="/alexander" routerLinkActive="text-yellow-200" class="block text-custom-letter no-underline p-2 hover:text-yellow-200 text-center uppercase font-ruso">Alexander</a>
+        </li>
+        <li class="mb-1">
+          <a routerLink="sobre_mi" routerLinkActive="text-yellow-200" class="block text-custom-letter no-underline p-2 hover:text-yellow-200 text-center uppercase font-ruso">Sobre mi</a>
+        </li>
+        <li class="mb-1">
+          <a routerLink="portfolio" routerLinkActive="text-yellow-200" class="block text-custom-letter no-underline p-2 hover:text-yellow-200 text-center uppercase font-ruso">Portfolio</a>
+        </li>
+        <li class="mb-1">
+          <a routerLink="educacion" routerLinkActive="text-yellow-200" class="block text-custom-letter no-underline p-2 hover:text-yellow-200 text-center uppercase font-ruso">Educación</a>
+        </li>
+        <li class="mb-1">
+          <a routerLink="skills" routerLinkActive="text-yellow-200" class="block text-custom-letter no-underline p-2 hover:text-yellow-200 text-center uppercase font-ruso">Skills</a>
+        </li>
+        <li class="mb-1">
+          <a routerLink="contacto" routerLinkActive="text-yellow-200" class="block text-custom-letter no-underline p-2 hover:text-yellow-200 text-center uppercase font-ruso">Contacto</a>
+        </li>
+      </div>
+    </ul>
+  </div>
+  <div class="flex-1 bg-custom-purple2 overflow-y-auto">
+    <router-outlet></router-outlet>
+  </div>
+</div>
