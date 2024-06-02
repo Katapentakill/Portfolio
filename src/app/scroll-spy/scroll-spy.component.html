@@ -1,0 +1,19 @@
+<!-- scroll-spy.component.html -->
+
+<div class="container mx-auto py-8">
+  <div #scrollSpyElement class="scroll-spy-container">
+    <!-- Componente Alexander -->
+    <div id="alexander" *ngIf="activeSection === 'alexander'">
+      <app-alexander></app-alexander>
+    </div>
+
+    <!-- Componente Sobre Mi -->
+    <div id="sobre-mi" *ngIf="activeSection === 'sobre-mi'">
+      <app-sobre-mi></app-sobre-mi>
+    </div>
+
+    <!-- Otros componentes -->
+  </div>
+
+  <!-- No incluyas el sidebar aquí ya que lo tienes en otro lugar -->
+</div>
