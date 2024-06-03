@@ -1,0 +1,20 @@
+.typing-effect {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 2rem;
+  margin: 10px; /* Ajuste aquí: añadí "px" después de "10" */
+  margin-left: -2px; /* Ajuste aquí: desplazamiento a la izquierda */
+  font-family: "Courier New";
+  border-right: 0.15em solid transparent;
+  animation: typing 6s steps(100) 3s infinite both; /* Ajuste aquí: cambié "normal" por "infinite" para que la animación se repita infinitamente */
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: calc(100% - 20px);
+  }
+}
