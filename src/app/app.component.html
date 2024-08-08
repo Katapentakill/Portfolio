@@ -8,7 +8,7 @@
     <nav>
       <ul class="list-none p-0">
         <div class="mt-80">
-          <img src="images/David.jpg" alt="David" class="w-40 h-40 mb-10 rounded-full bg-center my-8 mx-auto">
+          <img src="images/Ale2.jpeg" alt="David" class="w-40 h-40 mb-10 rounded-full bg-center my-8 mx-auto">
           <li class="mb-1">
             <a href="#Alexander" class="block text-custom-letter no-underline p-2 hover:text-yellow-200 text-center uppercase font-ruso">Alexander</a>
           </li>
@@ -73,25 +73,166 @@
 
     <!-- Sección Portfolio -->
     <div id="Portfolio" class="section flex-1 h-full bg-custom-purple2 box-border border-2 border-white text-custom-letter">
-      <h1 class="text-6xl text-custom-tittle font-semibold uppercase ml-10 mt-10">portfolio</h1>
-      <div class="flex mt-20 ml-10 mr-auto max-w-screen-md">
-        <div class="border border-white rounded-lg mr-10 block bg-custom-purple" style="max-width: 500px;">
-          <div class="w-full">
-            <img src="images/dream.png" alt="city" class="w-full h-full rounded-lg object-cover">
+      <h1 class="text-4xl text-custom-tittle font-semibold uppercase ml-6 mt-6">portfolio</h1>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 mt-10 mx-2 h-[calc(100vh-150px)] overflow-auto">
+        <!-- Primer proyecto -->
+        <div class="border border-white rounded-lg block bg-custom-purple mb-4 p-3 w-full flex-shrink-0">
+          <!-- Contenedor de imagen con tamaño ajustado -->
+          <div class="w-full mb-3">
+            <img src="images/Virtu.png" alt="city" class="w-full h-auto rounded-lg object-cover mx-auto">
           </div>
-          <div class="mt-4">
-            <h2 class="text-2xl font-semibold text-custom-tittle ml-2">Software de compras y administracion de usuarios y productos</h2>
-            <p class="text-lg mt-2 text-custom-letter2 ml-2">
-              Proyecto creado con asp.net para el backend y en el frontend se utilizo Angular y Ionic,
-              se utilizaron servicios de cloudinary, base de datos en sqlite, todo esto para crear un software funcional con todo lo necesario para funcionar,
-              busqueda por caracteristicas especiales, crud en sus respectivas areas, servicios de authenticazion seguros, guardas para proteger las rutas, ademas
-              se utilizo un patron repositorio para la legibilidad del backend y su escalado.
+          <div class="text-center">
+            <h2 class="text-xl font-semibold text-custom-tittle mb-2">Software de compras y administración de usuarios y productos</h2>
+            <p class="text-base mt-1 text-custom-letter2 mb-4">
+              Proyecto creado con ASP.NET para el backend y Angular e Ionic para el frontend. Utiliza Cloudinary, SQLite, y servicios de autenticación seguros. Incluye búsqueda avanzada, CRUD en diversas áreas y un patrón repositorio para escalabilidad y mantenimiento.
             </p>
-            <a href="https://cl.pinterest.com/pin/47780446039735070/" class="text-blue-500 mt-2 block ml-2">GitHub</a>
+            <div class="text-left mb-4">
+              <h3 class="text-lg font-semibold text-custom-tittle mb-2">Tecnologías Utilizadas:</h3>
+              <ul class="list-disc list-inside text-base text-custom-letter2">
+                <li>ASP. Net</li>
+                <li>Typescript</li>
+                <li>C#</li>
+                <li>Tailwind</li>
+                <li>HTML</li>
+                <li>Angular</li>
+                <li>Ionic</li>
+                <li>SQL</li>
+                <li>Entity framework</li>
+                <li>Visual studio</li>
+                <li>Cloudinary</li>
+                <li>JWT</li>
+              </ul>
+            </div>
+            <div class="flex flex-wrap justify-center gap-1">
+              <a href="https://github.com/Katapentakill/Backend-Editado-Taller2-WebMovil/tree/main" class="bg-blue-500 text-white py-2 px-4 rounded inline-block text-center text-sm" target="_blank">BACKEND PROFESOR/AYUDANTE</a>
+              <a href="https://github.com/Katapentakill/Backend-WebMovilAle" class="bg-blue-500 text-white py-2 px-4 rounded inline-block text-center text-sm" target="_blank">BACKEND PROPIO</a>
+              <a href="https://github.com/Katapentakill/Frontend-IDWM-Ale" class="bg-red-500 text-white py-2 px-4 rounded inline-block text-center text-sm" target="_blank">FRONTEND WEB</a>
+              <a href="https://github.com/Katapentakill/Frontend-Mobile-IDWM-Ale" class="bg-red-500 text-white py-2 px-4 rounded inline-block text-center text-sm" target="_blank">FRONTEND MOVIL</a>
+            </div>
+          </div>
+        </div>
+        <!-- Segundo proyecto -->
+        <div class="border border-white rounded-lg block bg-custom-purple mb-4 p-3 w-full flex-shrink-0">
+          <!-- Contenedor de imagen con tamaño ajustado -->
+          <div class="w-full mb-3">
+            <img src="images/GestionTareas.png" alt="city" class="w-full h-auto rounded-lg object-cover mx-auto">
+          </div>
+          <div class="text-center">
+            <h2 class="text-xl font-semibold text-custom-tittle mb-2">Software de Gestión de Proyectos y Tareas</h2>
+            <p class="text-base mt-1 text-custom-letter2 mb-4">
+              Aplicación desarrollada utilizando NestJS para el backend, Angular para el frontend web, e Ionic para el desarrollo móvil. La aplicación permite la gestión de empleados, la creación y asignación de tareas, y cuenta con un algoritmo de aprendizaje automático para recomendar trabajadores adecuados a cada tarea.
+            </p>
+            <div class="text-left mb-4">
+              <h3 class="text-lg font-semibold text-custom-tittle mb-2">Tecnologías Utilizadas:</h3>
+              <ul class="list-disc list-inside text-base text-custom-letter2">
+                <li>NestJS</li>
+                <li>Sqlite</li>
+                <li>Python</li>
+                <li>Typescript</li>
+                <li>Tailwind</li>
+                <li>HTML</li>
+                <li>Angular</li>
+                <li>Ionic</li>
+                <li>SQL</li>
+                <li>BERT</li>
+                <li>TypeORM</li>
+                <li>Visual studio</li>
+                <li>Cloudinary</li>
+                <li>JWT</li>
+              </ul>
+            </div>
+            <div class="flex flex-wrap justify-center gap-1">
+              <a href="https://github.com/Katapentakill/Port-backend-nestjs" class="bg-blue-500 text-white py-2 px-4 rounded inline-block text-center text-sm" target="_blank">BACKEND</a>
+              <a href="https://github.com/Katapentakill/Machine-learning-Gestion-Tareas.git" class="bg-orange-500 text-white py-2 px-4 rounded inline-block text-center text-sm" target="_blank">MACHINE LEARNING SCRIPT</a>
+              <a href="https://github.com/Katapentakill/Port-Angular-Tareas" class="bg-red-500 text-white py-2 px-4 rounded inline-block text-center text-sm" target="_blank">FRONTEND WEB</a>
+              <a href="https://github.com/Katapentakill/Port-Angular-Tareas-Mobile" class="bg-red-500 text-white py-2 px-4 rounded inline-block text-center text-sm" target="_blank">FRONTEND MOBILE</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tercer proyecto -->
+        <div class="border border-white rounded-lg block bg-custom-purple mb-4 p-3 w-full flex-shrink-0">
+          <!-- Contenedor de imagen con tamaño ajustado -->
+          <div class="w-full mb-3">
+            <img src="images/dream.png" alt="city" class="w-full h-auto rounded-lg object-cover mx-auto">
+          </div>
+          <div class="text-center">
+            <h2 class="text-xl font-semibold text-custom-tittle mb-2">Obtencion de datos para software propio</h2>
+            <p class="text-base mt-1 text-custom-letter2 mb-4">
+              Script para obtener informacion y guardarla en una base de datos para su posterior normalizacion y uso.
+            </p>
+            <div class="text-left mb-4">
+              <h3 class="text-lg font-semibold text-custom-tittle mb-2">Tecnologías Utilizadas:</h3>
+              <ul class="list-disc list-inside text-base text-custom-letter2">
+                <li>NodeJs</li>
+                <li>Javascript</li>
+                <li>Puppeteer</li>
+              </ul>
+            </div>
+            <div class="flex flex-wrap justify-center gap-1">
+              <a href="https://github.com/Katapentakill/WebScrappingCriminalistico.git" class="bg-indigo-500 text-white py-2 px-4 rounded inline-block text-center text-sm" target="_blank">WEB SCRAPPING</a>
+            </div>
+          </div>
+        </div>
+        <!-- Cuarto proyecto -->
+        <div class="border border-white rounded-lg block bg-custom-purple mb-4 p-3 w-full flex-shrink-0">
+          <!-- Contenedor de imagen con tamaño ajustado -->
+          <div class="w-full mb-3">
+            <img src="images/Portfolio.png" alt="city" class="w-full h-auto rounded-lg object-cover mx-auto">
+          </div>
+          <div class="text-center">
+            <h2 class="text-xl font-semibold text-custom-tittle mb-2">Portfolio</h2>
+            <p class="text-base mt-1 text-custom-letter2 mb-4">
+              Portfolio personal con todos mis trabajos y experiencias, ademas de tecnologias.
+            </p>
+            <div class="text-left mb-4">
+              <h3 class="text-lg font-semibold text-custom-tittle mb-2">Tecnologías Utilizadas:</h3>
+              <ul class="list-disc list-inside text-base text-custom-letter2">
+                <li>Typescript</li>
+                <li>HTML</li>
+                <li>Tailwind</li>
+                <li>CSS</li>
+              </ul>
+            </div>
+            <div class="flex flex-wrap justify-center gap-1">
+              <a href="https://github.com/Katapentakill/Portfolio" class="bg-red-500 text-white py-2 px-4 rounded inline-block text-center text-sm" target="_blank">FRONTEND</a>
+            </div>
+          </div>
+        </div>
+        <!-- Quinto proyecto -->
+        <div class="border border-white rounded-lg block bg-custom-purple mb-4 p-3 w-full flex-shrink-0">
+          <!-- Contenedor de imagen con tamaño ajustado -->
+          <div class="w-full mb-3">
+            <img src="images/Criminalistico.png" alt="city" class="w-full h-auto rounded-lg object-cover mx-auto">
+          </div>
+          <div class="text-center">
+            <h2 class="text-xl font-semibold text-custom-tittle mb-2">Estudio criminalistico</h2>
+            <p class="text-base mt-1 text-custom-letter2 mb-4">
+              Estudio criminalistico de antofagasta con recopilacion de datos, mapa geospacial para la visualizacion y utilizacion de data science para los resultados.
+            </p>
+            <div class="text-left mb-4">
+              <h3 class="text-lg font-semibold text-custom-tittle mb-2">Tecnologías Utilizadas:</h3>
+              <ul class="list-disc list-inside text-base text-custom-letter2">
+                <li>Visulización de Datos</li>
+                <li>Preprocesamiento de Datos</li>
+                <li>Matplotlib</li>
+                <li>K-Nearest Neighbors</li>
+                <li>Python</li>
+              </ul>
+            </div>
+            <div class="flex flex-wrap justify-center gap-1">
+              <a href="https://drive.google.com/drive/folders/1qUj5Bg-g1LYvzmRz-exRZe4E9DiMyWRf?usp=sharing" class="bg-green-500 text-white py-2 px-4 rounded inline-block text-center text-sm" target="_blank">DATA</a>
+            </div>
           </div>
         </div>
       </div>
     </div>
+
+
+
+
+
+
 
     <!-- Sección Educación -->
     <div id="Educacion" class="section flex-1 h-full bg-custom-purple2 box-border border-2 border-white">
@@ -163,6 +304,10 @@
         <div class="flex items-center mr-6 mb-4">
           <img src="icons/angular.png" alt="Angular" class="w-12 h-12 rounded-full bg-center">
           <span class="ml-2 text-custom-letter2">Angular</span>
+        </div>
+        <div class="flex items-center mr-6 mb-4">
+          <img src="icons/jwt.png" alt="Angular" class="w-12 h-12 rounded-full bg-center">
+          <span class="ml-2 text-custom-letter2">JWT</span>
         </div>
         <div class="flex items-center mr-6 mb-4">
           <img src="icons/Tailwind.png" alt="Tailwind CSS" class="w-12 h-12 rounded-full bg-center">
