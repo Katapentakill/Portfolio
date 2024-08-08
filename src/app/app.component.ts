@@ -24,6 +24,9 @@ export class AppComponent implements OnInit {
     // Obtiene el elemento de audio con el id 'background-music'
     const audio = <HTMLAudioElement>document.getElementById('background-music');
 
+    // Ajustar el volumen al 50%
+    audio.volume = 0.2;
+
     // Añade un evento de clic al documento que se ejecuta solo una vez
     document.addEventListener('click', () => {
       // Reproduce el audio al hacer clic en cualquier parte de la página
